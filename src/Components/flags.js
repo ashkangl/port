@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 const flags = () => {
   return (
-    <div className='flex flex-row items-center space-x-4 justify-center'>
+    <div className='flex flex-row items-center justify-center space-x-4 md:w-1/2 w-1/3'>
 
         <Link href={`/en`}><Image unoptimized src={Usa} width={25} height={25} alt='Usa Flag' /></Link>
         <Link href={`/fa`} ><Image unoptimized src={Iran} width={25} height={25} alt='Iran Flag' /></Link>

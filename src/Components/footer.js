@@ -4,13 +4,9 @@ import Flags from './flags'
 
 const footer = () => {
   return (
-    <div className='flex' dir='ltr'>
-        <div className='flex-initial md:w-1/2 w-1/3'>
+    <div className={`flex flex-row items-center justify-center`} dir='ltr'>
         <Flags />
-        </div>
-        <div className='flex-initial text-center md:w-1/2 w-2/3'>
-        <div className='font-["spa"] text-white md:text-lg text-sm'>&copy;ASHKANGOLZAD.IR | 2024-25</div>
-        </div>
+        <h6 className={styles.footer}>&copy;ASHKANGOLZAD.IR | 2024-25</h6>
     </div>
   )
 }
