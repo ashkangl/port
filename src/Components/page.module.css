@@ -1,0 +1,53 @@
+.h{
+    font-family: 'ubu';
+    font-weight: 300;
+}
+
+/* .footerdiv{
+    display: flex;
+    width: 100%;
+} */
+
+.footer{
+    width: 50%;
+    text-align: center;
+    font-family: 'spa';
+    font-weight: 300;
+    color: #e0e0e0;
+    font-size: 85%;
+}
+
+.footerflag{
+    width: 50%;
+    text-align: center;
+}
+
+.esp{
+    font-family: spa;
+}
+
+.esp2{
+    font-family: spa;
+    font-weight: 300;
+}
+
+.en{
+    font-family: ubu;
+    font-weight: 600;
+}
+
+.enh2{
+    font-family: ubu;
+    font-weight: 300;
+}
+
+.farsi{
+    font-family: far;
+    font-weight: 400;
+}
+
+.farsi2{
+    font-family: far;
+    font-weight: 500;
+    font-size: 110%;
+}

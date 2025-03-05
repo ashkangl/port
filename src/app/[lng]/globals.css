@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+@font-face {
+  font-family: ubu;
+  src: local('ubuntu'),url(../../utils/Fonts/Ubuntu-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: spa;
+  src: local('fonseca'),url(../../utils/Fonts/FontsFree-Net-Fonseca-Rounded.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: far;
+  src: local('samim'),url(../../utils/Fonts/Far_Dastan.ttf) format('truetype');
+}
