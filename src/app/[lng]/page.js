@@ -91,7 +91,7 @@ export default async function Home({params : {lng}}) {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         {lng === "en" ?
-        <div className="text-white pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['ubu']">
+        <div className=" pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['ubu']">
           <div className="py-2 md:text-lg text-md">Hello! I'm Ashkan Golzad, a seasoned Full Stack Web Developer with over 4 years of experience in Node.js, React and Next.js.I'm also diving into the exciting world of Python with Flask and django, constantly expanding my skill set to stay ahead in this ever-evolving tech landscape.</div>
           <div className="py-2 md:text-lg text-md">With a solid foundation in both MongoDB and PostgreSQL, I specialize in building robust, scalable applications that drive user engagement and efficiency. My expertise spans across front-end and back-end development, ensuring seamless and cohesive user experiences.</div>
           <div className="py-2 md:text-lg text-md">I have the capability to create websites from start to finish on my own and have developed several websites and projects. Additionally, I thrive in team environments and am known for my collaborative spirit and ability to work well within a team.</div>
@@ -99,7 +99,7 @@ export default async function Home({params : {lng}}) {
           <div className="py-2 md:text-lg text-md">I believe in the power of collaboration and continuous learning. If you're looking for a driven and versatile developer who can bring your ideas to life with precision and creativity, you've come to the right place. Let's build something extraordinary together.</div>
         </div>
         : lng == "fa" ?
-        <div className="text-white pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['far']">
+        <div className=" pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['far']">
           <div className="py-2 md:text-lg text-md">سلام! من اشکان گلزاد هستم، یک توسعه‌دهنده فول استک وب با بیش از ۴ سال تجربه در Node.jsو    React و Next.js.همچنین در حال کاوش در دنیای مهیج پایتون با فلاسک و جانگو هستم و به طور مداوم مهارت‌های خود را گسترش می‌دهم تا در این دنیای فناورانه پویا، همیشه پیشرو باشم.</div>
           <div className="py-2 md:text-lg text-md">با داشتن یک پایه‌ی محکم در MongoDB و PostgreSQL، من تخصص در ساختن برنامه‌های پایدار و مقیاس‌پذیر دارم که بهره‌وری و تعامل کاربران را به حداکثر می‌رساند. تخصص من شامل توسعه‌ی قسمت‌های جلو و عقب است تا تجربه‌ای یکپارچه و هماهنگ برای کاربران فراهم شود.</div>
           <div className="py-2 md:text-lg text-md">من توانایی ایجاد وب‌سایت‌ها از ابتدا تا انتها به تنهایی دارم و چندین وب‌سایت و پروژه را توسعه داده‌ام. علاوه بر این، در محیط‌های تیمی به خوبی عمل می‌کنم و به خاطر روحیه‌ی همکاری و توانایی کار خوب در تیم شناخته شده‌ام.</div>
@@ -107,7 +107,7 @@ export default async function Home({params : {lng}}) {
           <div className="py-2 md:text-lg text-md">به قدرت همکاری و یادگیری مداوم اعتقاد دارم. اگر به دنبال یک توسعه‌دهنده‌ی متعهد و چندمنظوره هستید که بتواند ایده‌های شما را با دقت و خلاقیت به زندگی بیاورد، به مکان درستی آمده‌اید. بیایید با هم چیزی خارق‌العاده بسازیم.</div>
         </div>
         : lng == "ar" ?
-        <div className="text-white pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['far']">
+        <div className=" pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['far']">
           <div className="py-2 md:text-lg text-md">أهلاً! أنا Ashkan Golzad، مطور ويب شامل بخبرة تزيد عن ٤ سنوات في Node.jsو  React و Next.js.كما أنني أستكشف عالم بايثون المثير مع فلاس & django، وأوسع مهاراتي باستمرار لأبقى في مقدمة هذا العالم التقني المتغير باستمرار.</div>
           <div className="py-2 md:text-lg text-md">بخبرة راسخة في MongoDB و PostgreSQL، أتخصص في بناء تطبيقات متينة وقابلة للتطوير تعزز كفاءة وتفاعل المستخدمين. تمتد مهاراتي عبر تطوير الجوانب الأمامية والخلفية لضمان تقديم تجارب مستخدم متكاملة ومنسجمة.</div>
           <div className="py-2 md:text-lg text-md">لدي القدرة على إنشاء مواقع الويب من البداية إلى النهاية بمفردي وقد طورت عدة مواقع ويب ومشاريع. بالإضافة إلى ذلك، أزدهر في بيئات العمل الجماعي ومعروف بروحي التعاونية وقدرتي على العمل بشكل جيد ضمن الفريق.</div>
