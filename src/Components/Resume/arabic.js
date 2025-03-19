@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 const arabic = () => {
   return (
-    <div className={`${styles.fa} grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16`}>
+    <div className='font-["far"] text-slate-50 grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400  ${styles.fah6}`}>تعليم</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400  '>تعليم</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
         جامعة آية الله البروجردي - هندسة الحاسوب - بكالوريوس 
         </li>
 
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>اللغات</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>اللغات</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
         فارسي - مواطن
         </li>
@@ -29,7 +29,7 @@ const arabic = () => {
         </li>
     </div>
     <div className={styles.fardiv}>    
-    <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>سجلات العمل</h6>
+    <h6 className='items-center justify-center gap-4 text-zinc-400 '>سجلات العمل</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
             المبيعات لمدة ثلاث سنوات
             </li>
@@ -37,7 +37,7 @@ const arabic = () => {
             برمجة الويب منذ ثلاث سنوات وحتى الآن 
             </li>
     
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>المشاريع</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>المشاريع</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
                 www.shamar-co.com
             </li>
@@ -59,7 +59,7 @@ const arabic = () => {
             </div>
     </div>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>مهارات</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>مهارات</h6>
         <li className="text-zinc-400 hover:text-zinc-100">Fullstack</li>
         <li className="text-zinc-400 hover:text-zinc-100">Backend</li>
         <li className="text-zinc-400 hover:text-zinc-100">Frontend</li>

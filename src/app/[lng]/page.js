@@ -12,7 +12,7 @@ export default async function Home({params : {lng}}) {
   const navigation = [
     { name: "Resume", href: `/${lng}/resume` },
     { name: "Contact", href: `/${lng}/contact` },
-    { name: "Order", href: `/${lng}/order`},
+    { name: "Order", href: `/${lng}/order` },
   ];
 
   const myName = 'Ashkan Golzad'
@@ -27,31 +27,31 @@ export default async function Home({params : {lng}}) {
             <Link
               key={item.href}
               href={item.href}
-              className={`${styles.en} text-sm duration-500 text-zinc-300 hover:text-zinc-400`}
+              className='font-["ubu"] text-sm duration-500 text-zinc-300 hover:text-zinc-400'
             >
               {t(`${item.name}`)}
             </Link>
           ))
           :""}
 
-          {lng === "es" ?
+          {/* {lng === "es" ?
           navigation.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`${styles.esp} text-sm duration-500 text-zinc-300 hover:text-zinc-400`}
+              className=' text-sm duration-500 text-zinc-300 hover:text-zinc-400'
             >
               {t(`${item.name}`)}
             </Link>
           ))
-          :""}
+          :""} */}
 
           {lng === "fa" || lng === "ar" ?
           navigation.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`${styles.farsi2} text-sm duration-500 text-zinc-300 hover:text-zinc-400`}
+              className='font-["far"] text-sm duration-500 text-zinc-300 hover:text-zinc-400'
             >
               {t(`${item.name}`)}
             </Link>
@@ -65,25 +65,25 @@ export default async function Home({params : {lng}}) {
         quantity={600}
       />
       {lng === "en" ? 
-      <h1 className={`z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.en}`}>
+      <h1 className='z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text font-["ubu"]'>
         {t(`${myName}`)}
       </h1> : ""
       }
 
-      {lng === "es" ? 
-      <h1 className={`z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.esp}`}>
+      {/* {lng === "es" ? 
+      <h1 className='z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text'>
         {t(`${myName}`)}
       </h1> : ""
-      }
+      } */}
 
       {lng === "ar" ? 
-      <h1 className={`z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.esp}`}>
+      <h1 className='z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text'>
         {t(`${myName}`)}
       </h1> : ""
       }
 
       {lng === "fa" ? 
-      <h1 className={`z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.farsi}`}>
+      <h1 className='z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.farsi}'>
         {t(`${myName}`)}  
       </h1> : ""
       }

@@ -1,18 +1,17 @@
 import React from 'react'
-import styles from './page.module.css'
 import Link from 'next/link'
 
 const english = () => {
   return (
-    <div className={`${styles.en} grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16`}>
+    <div className='grid font-["ubu"] font-semibold text-slate-50 w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400  ${styles.en6}`}>Education</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>Education</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
         Bachelor of Engineering in Computer Engineering
         Ayatollah Borujerdi University - Iran
         </li>
 
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.en6}`}>Languages</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400'>Languages</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
             Farsi - native
         </li>
@@ -30,7 +29,7 @@ const english = () => {
         </li>
     </div>
     <div>    
-    <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.en6}`}>Work experience</h6>
+    <h6 className='items-center justify-center gap-4 text-zinc-400'>Work experience</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
             Salesman from 2019 to 2022
             </li>
@@ -38,7 +37,7 @@ const english = () => {
             Web developing from 2021 to now
             </li>
     
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.en6}`}>Projects</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400'>Projects</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
                 www.shamar-co.com
             </li>
@@ -60,7 +59,7 @@ const english = () => {
             
     </div>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.en6}`}>Skills</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400'>Skills</h6>
         <li className="text-zinc-400 hover:text-zinc-100">Fullstack</li>
         <li className="text-zinc-400 hover:text-zinc-100">Backend</li>
         <li className="text-zinc-400 hover:text-zinc-100">Frontend</li>

@@ -70,10 +70,10 @@ export default function Example({params :{lng}}) {
                   {s.icon}
                 </span>{" "}
                 <div className="z-10 flex flex-col items-center">
-                  <span className={`lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display ${styles.hhh}`}>
+                  <span className='lg:text-lg font-medium duration-150 xl:text-xl text-zinc-200 group-hover:text-white font-display font-["ubu"]'>
                     {t(`${s.handle}`)}
                   </span>
-                  <span className={`mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200 ${styles.h} `}>
+                  <span className='mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200 font-["ubu"'>
                     {t(`${s.label}`)}
                   </span>
                 </div>

@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 const farsi = () => {
   return (
-    <div className={`${styles.fa} grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16`}>
+    <div className='text-slate-50 font-["far"] grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400  ${styles.fah6}`}>سوابق تحصیلی</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400  '>سوابق تحصیلی</h6>
         <li className="text-zinc-400 hover:text-zinc-100 full-width">
             دانشگاه آیت ا... بروجردی - مهندسی کامپیوتر - کارشناسی
         </li>
 
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>زبان های خارجی</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>زبان های خارجی</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
             فارسی - بومی
         </li>
@@ -29,7 +29,7 @@ const farsi = () => {
         </li>
     </div>
     <div className={styles.fardiv}>    
-    <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>سوابق کاری</h6>
+    <h6 className='items-center justify-center gap-4 text-zinc-400 '>سوابق کاری</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
             فروشندگی از سال 1397 تا پایان 1400
             </li>
@@ -37,7 +37,7 @@ const farsi = () => {
             برنامه نویسی وب از 1400 تاکنون
             </li>
     
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>پروژه ها</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>پروژه ها</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
             www.shamar-co.com
             </li>
@@ -60,7 +60,7 @@ const farsi = () => {
             </div>
     </div>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.fah6}`}>توانایی ها  و مهارت ها</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>توانایی ها  و مهارت ها</h6>
         <li className="text-zinc-400 hover:text-zinc-100">Fullstack</li>
         <li className="text-zinc-400 hover:text-zinc-100">Backend</li>
         <li className="text-zinc-400 hover:text-zinc-100">Frontend</li>
