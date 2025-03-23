@@ -3,7 +3,7 @@ import Flags from './flags'
 
 const footer = () => {
   return (
-    <div className='flex flex-row items-center justify-center' dir='ltr'>
+    <div className='flex flex-row items-center text-white justify-center' dir='ltr'>
         <div className='flex-initial md:w-1/2 w-1/3'>
         <Flags />
         </div>
