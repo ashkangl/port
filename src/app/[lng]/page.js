@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Particles from "@/Components/particles";
 import { useTranslation } from "@/app/i18n";
-import styles from './page.module.css';
 
 
 export default async function Home({params : {lng}}) {
@@ -77,13 +76,13 @@ export default async function Home({params : {lng}}) {
       } */}
 
       {lng === "ar" ? 
-      <h1 className='z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text'>
+      <h1 className='z-10 animate-pulse text-4xl  text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text'>
         {t(`${myName}`)}
       </h1> : ""
       }
 
       {lng === "fa" ? 
-      <h1 className='z-10 animate-pulse text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.farsi}'>
+      <h1 className='z-10 animate-pulse font-["far"] text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-8xl whitespace-nowrap bg-clip-text ${styles.farsi}'>
         {t(`${myName}`)}  
       </h1> : ""
       }

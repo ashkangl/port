@@ -8,7 +8,7 @@ const Price = () => {
         <div className="container mx-auto w-full h-full max-w-4xl mt-32">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-col-4 xl:grid-col-5">
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>موقع صفحة واحدة</div>
                             <div className='font-bold text-red-500 text-md mb-2 '>From AED2500</div>
@@ -41,7 +41,7 @@ const Price = () => {
 
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%] font-['far']">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2'>مدونة وموقع الأعمال
                             </div>
@@ -74,7 +74,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>متجر التجارة الإلكترونية
                             </div>
@@ -107,7 +107,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 font-["far"]'>موقع الخيار الكامل</div>
                             <div className='font-bold text-red-500 text-md mb-2 '>From AED25000</div>
@@ -140,7 +140,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>SEO</div>
                             <div className='font-bold text-red-500 text-md mb-2 '>Monthly AED2000</div>

@@ -3,7 +3,6 @@ import { Mail , Youtube , Github , Send , Phone, MessageCircle} from "lucide-rea
 import Link from "next/link"
 import Navigation  from "@/Components/nav"
 import {Card} from "@/Components/card"
-import styles from './page.module.css'
 import { useTranslation } from "@/app/i18n/client";
 
 const socials = [
@@ -53,7 +52,7 @@ export default function Example({params :{lng}}) {
   return (
     <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
       <Navigation lng={lng} />
-      <div className="container flex items-center md:mt-20 pb-10 justify-center min-h-screen px-4 mx-auto">
+      <div dir="ltr" className="container flex items-center md:mt-20 pb-10 justify-center min-h-screen px-4 mx-auto">
         <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
           {socials.map(s => (
             <Card key={s.href}>

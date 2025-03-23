@@ -9,7 +9,7 @@ const Price = () => {
             <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-col-4 xl:grid-col-5">
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className=' font-bold text-slate-800 text-lg mb-2'>سایت تک صفحه ای</div>
                             <p className='text-slate-700 text-base '>* قالب اختصاصی</p>
@@ -43,7 +43,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>سایت شرکتی یا بلاگ</div>
                             <p className='text-slate-700 text-base '>* قالب اختصاصی</p>
@@ -77,7 +77,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>سایت فروشگاهی</div>
                             <p className='text-slate-700 text-base '>* قالب اختصاصی</p>
@@ -111,7 +111,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>سایت وردپرس</div>
                             <p className='text-slate-700 text-base '>* قالب آماده</p>
@@ -145,7 +145,7 @@ const Price = () => {
 
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>سئو</div>
                             <p className='text-slate-700 text-base '>* پکیج کامل</p>
@@ -179,7 +179,7 @@ const Price = () => {
                 </div>
 
                 <div className="gap-4 text-zinc-500 max-w-[90%] mr-[5%]">
-                    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
+                    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-zinc-300 hover:bg-zinc-100">
                         <div className="px-6 py-4">
                             <div className='font-bold text-slate-800 text-lg mb-2 '>سایت فول آپشن</div>
                             <p className='text-slate-700 text-base '>با همه امکانات درخواستی</p>

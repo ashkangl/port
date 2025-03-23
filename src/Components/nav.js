@@ -2,7 +2,6 @@
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
-import styles from './page.module.css'
 import { useTranslation } from "@/app/i18n/client";
 
 
@@ -37,13 +36,13 @@ export default function Navigation({lng}) {
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
 								{lng === "en" ? 
-								<h6 className={styles.h} >{t('Resume')}</h6>
+								<h6 className="font-['eng']">{t('Resume')}</h6>
 								:""}
 								{lng === "es" ? 
-								<h6 className={styles.esp2} >{t('Resume')}</h6>
+								<h6 >{t('Resume')}</h6>
 								:""}
 								{lng === "fa" || lng === "ar" ? 
-								<h6 className={styles.farsi2} >{t('Resume')}</h6>
+								<h6 className="font-['far']">{t('Resume')}</h6>
 								:""}
 							</Link>
 
@@ -52,13 +51,13 @@ export default function Navigation({lng}) {
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
 								{lng === "en" ? 
-								<h6 className={styles.h} >{t('Contact')}</h6>
+								<h6 className="font-['eng']">{t('Contact')}</h6>
 								:""}
 								{lng === "es" ? 
-								<h6 className={styles.esp2} >{t('Contact')}</h6>
+								<h6 >{t('Contact')}</h6>
 								:""}
 								{lng === "fa" || lng === "ar" ? 
-								<h6 className={styles.farsi2} >{t('Contact')}</h6>
+								<h6 className="font-['far']">{t('Contact')}</h6>
 								:""}
 							</Link>			
 							
@@ -67,13 +66,13 @@ export default function Navigation({lng}) {
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
 								{lng === "en" ? 
-								<h6 className={styles.h} >{t('Order')}</h6>
+								<h6 className="font-['eng']">{t('Order')}</h6>
 								:""}
 								{lng === "es" ? 
-								<h6 className={styles.esp2} >{t('Order')}</h6>
+								<h6 >{t('Order')}</h6>
 								:""}
 								{lng === "fa" || lng === "ar" ? 
-								<h6 className={styles.farsi2} >{t('Order')}</h6>
+								<h6 className="font-['far']">{t('Order')}</h6>
 								:""}
 							</Link>			
 						</div>
