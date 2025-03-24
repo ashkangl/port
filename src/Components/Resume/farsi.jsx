@@ -1,65 +1,65 @@
 import React from 'react'
 import Link from 'next/link'
 
-const english = () => {
+const farsi = () => {
   return (
-    <div className='grid font-["ubu"] font-semibold text-slate-50 w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
+    <div className='text-slate-50 font-["far"] grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
-        <h6 className='items-center justify-center gap-4 text-zinc-400 '>Education</h6>
-        <li className="text-zinc-400 hover:text-zinc-100">
-        Bachelor of Engineering in Computer Engineering
-        Ayatollah Borujerdi University - Iran
+        <h6 className='items-center justify-center gap-4 text-zinc-400  '>سوابق تحصیلی</h6>
+        <li className="text-zinc-400 hover:text-zinc-100 full-width">
+            دانشگاه آیت ا... بروجردی - مهندسی کامپیوتر - کارشناسی
         </li>
 
-        <h6 className='items-center justify-center gap-4 text-zinc-400'>Languages</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>زبان های خارجی</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
-            Farsi - native
-        </li>
-
-        <li className="text-zinc-400 hover:text-zinc-100">
-            English - expert
+            فارسی - بومی
         </li>
 
         <li className="text-zinc-400 hover:text-zinc-100">
-            Spanish - little
+            انگلیسی - خیلی خوب
         </li>
 
         <li className="text-zinc-400 hover:text-zinc-100">
-            Arabic - little
+            اسپانیایی - کم
+        </li>
+
+        <li className="text-zinc-400 hover:text-zinc-100">
+            عربی - کم
         </li>
     </div>
-    <div>    
-    <h6 className='items-center justify-center gap-4 text-zinc-400'>Work experience</h6>
+    <div className='top-0'>    
+    <h6 className='items-center justify-center gap-4 text-zinc-400 '>سوابق کاری</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
-            Salesman from 2019 to 2022
+            فروشندگی از سال 1397 تا پایان 1400
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-            Web developing from 2021 to now
+            برنامه نویسی وب از 1400 تاکنون
             </li>
     
-        <h6 className='items-center justify-center gap-4 text-zinc-400'>Projects</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>پروژه ها</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
-                www.shamar-co.com
+            www.shamar-co.com
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-                www.djsargarmi.ir
+            www.djsargarmi.ir
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-            <Link href='http://www.haircolorbyhani.ir' target="_blank" rel="noopener noreferrer">www.haircolorbyhani.ir</Link>
+            <Link href='http://haircolorbyhani.ir' target="_blank" rel="noopener noreferrer">
+            www.haircolorbyhani.ir
+            </Link>
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-                www.divas.top
+            www.divas.top
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
             <Link href='https://ghavamigold.com' target="_blank" rel="noopener noreferrer nofollow">www.ghavamigold.com</Link>
             </li>
-            <div className="text-zinc-400 hover:text-zinc-100 mt-4">
-                <Link href="https://github.com/ashkangl">More Projects on Github</Link>
+            <div className="text-zinc-400 hover:text-zinc-100 mt-4 md:text-lg text-md">
+                <Link href="https://github.com/ashkangl">پروژه های بیشتر در گیتهاب</Link>
             </div>
-            
     </div>
     <div>
-        <h6 className='items-center justify-center gap-4 text-zinc-400'>Skills</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>توانایی ها  و مهارت ها</h6>
         <li className="text-zinc-400 hover:text-zinc-100">Fullstack</li>
         <li className="text-zinc-400 hover:text-zinc-100">Backend</li>
         <li className="text-zinc-400 hover:text-zinc-100">Frontend</li>
@@ -77,9 +77,10 @@ const english = () => {
         <li className="text-zinc-400 hover:text-zinc-100">Postgresql</li>
         <li className="text-zinc-400 hover:text-zinc-100">SEO</li>
 
+
     </div>
     </div>
   )
 }
 
-export default english
+export default farsi

@@ -1,66 +1,64 @@
 import React from 'react'
-import styles from './page.module.css'
 import Link from 'next/link'
 
-const farsi = () => {
+const arabic = () => {
   return (
-    <div className='text-slate-50 font-["far"] grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
+    <div className='font-["far"] text-slate-50 grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
-        <h6 className='items-center justify-center gap-4 text-zinc-400  '>سوابق تحصیلی</h6>
-        <li className="text-zinc-400 hover:text-zinc-100 full-width">
-            دانشگاه آیت ا... بروجردی - مهندسی کامپیوتر - کارشناسی
+        <h6 className='items-center justify-center gap-4 text-zinc-400  '>تعليم</h6>
+        <li className="text-zinc-400 hover:text-zinc-100">
+        جامعة آية الله البروجردي - هندسة الحاسوب - بكالوريوس 
         </li>
 
-        <h6 className='items-center justify-center gap-4 text-zinc-400 '>زبان های خارجی</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>اللغات</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
-            فارسی - بومی
-        </li>
-
-        <li className="text-zinc-400 hover:text-zinc-100">
-            انگلیسی - خیلی خوب
+        فارسي - مواطن
         </li>
 
         <li className="text-zinc-400 hover:text-zinc-100">
-            اسپانیایی - کم
+        اللغة الإنجليزية - جيد جدًا
         </li>
 
         <li className="text-zinc-400 hover:text-zinc-100">
-            عربی - کم
+        الاسبانية - قلیل
+        </li>
+
+        <li className="text-zinc-400 hover:text-zinc-100">
+        العربية - قليل
         </li>
     </div>
-    <div className={styles.fardiv}>    
-    <h6 className='items-center justify-center gap-4 text-zinc-400 '>سوابق کاری</h6>
+    <div className='top-0'>    
+    <h6 className='items-center justify-center gap-4 text-zinc-400 '>سجلات العمل</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
-            فروشندگی از سال 1397 تا پایان 1400
+            المبيعات لمدة ثلاث سنوات
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-            برنامه نویسی وب از 1400 تاکنون
+            برمجة الويب منذ ثلاث سنوات وحتى الآن 
             </li>
     
-        <h6 className='items-center justify-center gap-4 text-zinc-400 '>پروژه ها</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>المشاريع</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
-            www.shamar-co.com
+                www.shamar-co.com
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-            www.djsargarmi.ir
+                www.djsargarmi.ir
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-            <Link href='http://haircolorbyhani.ir' target="_blank" rel="noopener noreferrer">
-            www.haircolorbyhani.ir
-            </Link>
+                <Link href='http://www.haircolorbyhani.ir' target="_blank" rel="noopener noreferrer">www.haircolorbyhani.ir</Link>
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
-            www.divas.top
+                www.divas.top
             </li>
             <li className="text-zinc-400 hover:text-zinc-100">
             <Link href='https://ghavamigold.com' target="_blank" rel="noopener noreferrer nofollow">www.ghavamigold.com</Link>
             </li>
+
             <div className="text-zinc-400 hover:text-zinc-100 mt-4 md:text-lg text-md">
-                <Link href="https://github.com/ashkangl">پروژه های بیشتر در گیتهاب</Link>
+                <Link href="https://github.com/ashkangl">المزيد من المشاريع على جيثب</Link>
             </div>
     </div>
     <div>
-        <h6 className='items-center justify-center gap-4 text-zinc-400 '>توانایی ها  و مهارت ها</h6>
+        <h6 className='items-center justify-center gap-4 text-zinc-400 '>مهارات</h6>
         <li className="text-zinc-400 hover:text-zinc-100">Fullstack</li>
         <li className="text-zinc-400 hover:text-zinc-100">Backend</li>
         <li className="text-zinc-400 hover:text-zinc-100">Frontend</li>
@@ -78,10 +76,9 @@ const farsi = () => {
         <li className="text-zinc-400 hover:text-zinc-100">Postgresql</li>
         <li className="text-zinc-400 hover:text-zinc-100">SEO</li>
 
-
     </div>
     </div>
   )
 }
 
-export default farsi
+export default arabic

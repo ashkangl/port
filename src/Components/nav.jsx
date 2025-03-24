@@ -36,7 +36,7 @@ export default function Navigation({lng}) {
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
 								{lng === "en" ? 
-								<h6 className="font-['eng']">{t('Resume')}</h6>
+								<h6 className="font-['ubu']">{t('Resume')}</h6>
 								:""}
 								{lng === "es" ? 
 								<h6 >{t('Resume')}</h6>
@@ -51,7 +51,7 @@ export default function Navigation({lng}) {
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
 								{lng === "en" ? 
-								<h6 className="font-['eng']">{t('Contact')}</h6>
+								<h6 className="font-['ubu']">{t('Contact')}</h6>
 								:""}
 								{lng === "es" ? 
 								<h6 >{t('Contact')}</h6>
@@ -66,7 +66,7 @@ export default function Navigation({lng}) {
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
 								{lng === "en" ? 
-								<h6 className="font-['eng']">{t('Order')}</h6>
+								<h6 className="font-['ubu']">{t('Order')}</h6>
 								:""}
 								{lng === "es" ? 
 								<h6 >{t('Order')}</h6>

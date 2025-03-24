@@ -1,18 +1,17 @@
 import React from 'react'
-import styles from './page.module.css'
 import Link from 'next/link'
 
 const spanish = () => {
   return (
-    <div className={`${styles.es} grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16`}>
+    <div className={` grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16`}>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400  ${styles.es6}`}>Educación</h6>
+        <h6 className={`items-center justify-center gap-4 text-zinc-400  `}>Educación</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
         Licenciatura en Ingeniería en Ingeniería Informática
         Ayatollah Borujerdi University - Iran
         </li>
 
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.es6}`}>Idiomas</h6>
+        <h6 className={`items-center justify-center gap-4 text-zinc-400 `}>Idiomas</h6>
         <li className="text-zinc-400 hover:text-zinc-100">
             Farsi - nativo
         </li>
@@ -30,7 +29,7 @@ const spanish = () => {
         </li>
     </div>
     <div>    
-    <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.es6}`}>Experiencia laboral</h6>
+    <h6 className={`items-center justify-center gap-4 text-zinc-400 `}>Experiencia laboral</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
             Vendedor de 2019 a 2022
             </li>
@@ -38,7 +37,7 @@ const spanish = () => {
             Desarrollo web desde 2021 hasta ahora
             </li>
     
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.es6}`}>Proyectos</h6>
+        <h6 className={`items-center justify-center gap-4 text-zinc-400 `}>Proyectos</h6>
             <li className="text-zinc-400 hover:text-zinc-100">
                 www.shamar-co.com
             </li>
@@ -53,7 +52,7 @@ const spanish = () => {
             </li>
     </div>
     <div>
-        <h6 className={`items-center justify-center gap-4 text-zinc-400 ${styles.es6}`}>Habilidades</h6>
+        <h6 className={`items-center justify-center gap-4 text-zinc-400 `}>Habilidades</h6>
         <li className="text-zinc-400 hover:text-zinc-100">Fullstack</li>
         <li className="text-zinc-400 hover:text-zinc-100">Frontend</li>
         <li className="text-zinc-400 hover:text-zinc-100">Backend</li>
