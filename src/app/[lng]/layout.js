@@ -2,7 +2,6 @@ import "./globals.css";
 import Footer from "@/Components/footer";
 import { dir } from "i18next";
 import { languages } from "../i18n/setting";
-import Footers from "@/Components/Footers";
 
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }))
@@ -45,7 +44,7 @@ export default function RootLayout({ children ,params: {lng} }) {
     <html lang={lng} dir={dir(lng)}>
       <body>
       {children}
-      <Footers />
+      <Footer/>
       </body>
     </html>
   );
