@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const english = () => {
+const English = () => {
   return (
     <div className='grid font-["ubu"] font-semibold text-slate-50 w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
@@ -82,4 +82,4 @@ const english = () => {
   )
 }
 
-export default english
+export default English

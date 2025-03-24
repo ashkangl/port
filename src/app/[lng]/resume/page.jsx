@@ -3,8 +3,8 @@ import Navigation from '@/Components/nav'
 import { useTranslation } from '@/app/i18n'
 import Farsi from '@/Components/Resume/farsi'
 import Spanish from '@/Components/Resume/spanish'
-import English from '@/Components/Resume/english'
 import Arabic from '@/Components/Resume/arabic'
+import English from '@/Components/Resume/english'
 
 const page = async({params:{lng}}) => {
 
