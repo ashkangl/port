@@ -6,7 +6,7 @@ const English = () => {
     <div className='grid font-["ubu"] font-semibold text-slate-50 w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16'>
     <div>
         <h6 className='items-center justify-center gap-4 text-zinc-400 '>Education</h6>
-        <li className="text-zinc-400 hover:text-zinc-100">
+        <li className="text-zinc-400 hover:text-zinc-100 !important">
         Bachelor of Engineering in Computer Engineering
         Ayatollah Borujerdi University - Iran
         </li>
