@@ -4,7 +4,7 @@ import { useTranslation } from '@/app/i18n'
 import Farsi from '@/Components/Resume/farsi'
 import Spanish from '@/Components/Resume/spanish'
 import Arabic from '@/Components/Resume/arabic'
-import English from '@/Components/Resume/english'
+import English from '@/Components/Resume/English'
 
 const page = async({params:{lng}}) => {
 
