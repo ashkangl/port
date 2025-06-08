@@ -52,7 +52,9 @@ const arabic = () => {
             <li className="text-zinc-400 hover:text-zinc-100">
             <Link href='https://ghavamigold.com' target="_blank" rel="noopener noreferrer nofollow">www.ghavamigold.com</Link>
             </li>
-
+            <li className="text-zinc-400 hover:text-zinc-100">
+            <Link href='https://hkan.trade' target="_blank" rel="noopener noreferrer">www.hkan.trade</Link>
+            </li>
             <div className="text-zinc-400 hover:text-zinc-100 mt-4 md:text-lg text-md">
                 <Link href="https://github.com/ashkangl">المزيد من المشاريع على جيثب</Link>
             </div>
