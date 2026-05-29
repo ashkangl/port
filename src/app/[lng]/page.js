@@ -11,7 +11,7 @@ export default async function Home({params : {lng}}) {
   const navigation = [
     { name: "Resume", href: `/${lng}/resume` },
     { name: "Contact", href: `/${lng}/contact` },
-    { name: "Order", href: `/${lng}/order` },
+    // { name: "Order", href: `/${lng}/order` },
   ];
 
   const myName = 'Ashkan Golzad'
@@ -91,19 +91,17 @@ export default async function Home({params : {lng}}) {
       <div className="my-16 text-center animate-fade-in">
         {lng === "en" ?
         <div className=" pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['ubu']">
-          <div className="py-2 md:text-lg text-md">Hello! I'm Ashkan Golzad, a seasoned Full Stack Web Developer with over 4 years of experience in Node.js, React and Next.js.I'm also diving into the exciting world of Python with Flask and django, constantly expanding my skill set to stay ahead in this ever-evolving tech landscape.</div>
-          <div className="py-2 md:text-lg text-md">With a solid foundation in both MongoDB and PostgreSQL, I specialize in building robust, scalable applications that drive user engagement and efficiency. My expertise spans across front-end and back-end development, ensuring seamless and cohesive user experiences.</div>
-          <div className="py-2 md:text-lg text-md">I have the capability to create websites from start to finish on my own and have developed several websites and projects. Additionally, I thrive in team environments and am known for my collaborative spirit and ability to work well within a team.</div>
-          <div className="py-2 md:text-lg text-md">As a passionate software engineer, my GitHub repository is a testament to my dedication and adaptability. You'll find a diverse range of projects that showcase my ability to tackle complex challenges and deliver high-quality solutions.</div>
-          <div className="py-2 md:text-lg text-md">I believe in the power of collaboration and continuous learning. If you're looking for a driven and versatile developer who can bring your ideas to life with precision and creativity, you've come to the right place. Let's build something extraordinary together.</div>
+          <div className="py-2 md:text-lg text-md">Hello! I'm Ashkan Golzad, a passionate Full Stack Web Developer with over 5 years of professional experience in building modern web applications and scalable digital products. My core expertise lies in Next.js, React.js, and Node.js, while I also work with Python technologies such as Flask and Django, continuously expanding my knowledge to stay aligned with the latest advancements in web development.</div>
+          <div className="py-2 md:text-lg text-md">I specialize in developing complete web solutions from concept to deployment, focusing on modern user interfaces, scalable backend architectures, and high-performance applications. With strong experience in MongoDB and PostgreSQL, I build fast, reliable, and maintainable systems designed for real-world scalability.</div>
+          <div className="py-2 md:text-lg text-md">Throughout my career, I have developed multiple projects independently and collaboratively, gaining valuable experience in problem-solving, teamwork, and delivering clean, high-quality solutions. I am deeply passionate about software engineering and always strive to create impactful, user-focused products with precision and creativity.</div>
+          <div className="py-2 md:text-lg text-md">If you're looking for a dedicated, versatile, and detail-oriented developer to bring your ideas to life, I would be excited to collaborate and build something exceptional together.</div>
         </div>
         : lng == "fa" ?
         <div className=" pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['far']">
-          <div className="py-2 md:text-lg text-md">سلام! من اشکان گلزاد هستم، یک توسعه‌دهنده فول استک وب با بیش از ۴ سال تجربه در Node.jsو    React و Next.js.همچنین در حال کاوش در دنیای مهیج پایتون با فلاسک و جانگو هستم و به طور مداوم مهارت‌های خود را گسترش می‌دهم تا در این دنیای فناورانه پویا، همیشه پیشرو باشم.</div>
-          <div className="py-2 md:text-lg text-md">با داشتن یک پایه‌ی محکم در MongoDB و PostgreSQL، من تخصص در ساختن برنامه‌های پایدار و مقیاس‌پذیر دارم که بهره‌وری و تعامل کاربران را به حداکثر می‌رساند. تخصص من شامل توسعه‌ی قسمت‌های جلو و عقب است تا تجربه‌ای یکپارچه و هماهنگ برای کاربران فراهم شود.</div>
-          <div className="py-2 md:text-lg text-md">من توانایی ایجاد وب‌سایت‌ها از ابتدا تا انتها به تنهایی دارم و چندین وب‌سایت و پروژه را توسعه داده‌ام. علاوه بر این، در محیط‌های تیمی به خوبی عمل می‌کنم و به خاطر روحیه‌ی همکاری و توانایی کار خوب در تیم شناخته شده‌ام.</div>
-          <div className="py-2 md:text-lg text-md">به‌عنوان یک مهندس نرم‌افزار پرشور، مخزن GitHub من شاهدی بر تعهد و توانایی من در تطابق با چالش‌های پیچیده و ارائه‌ی راه‌حل‌های با کیفیت بالا است.</div>
-          <div className="py-2 md:text-lg text-md">به قدرت همکاری و یادگیری مداوم اعتقاد دارم. اگر به دنبال یک توسعه‌دهنده‌ی متعهد و چندمنظوره هستید که بتواند ایده‌های شما را با دقت و خلاقیت به زندگی بیاورد، به مکان درستی آمده‌اید. بیایید با هم چیزی خارق‌العاده بسازیم.</div>
+          <div className="py-2 md:text-lg text-md">سلام! من اشکان گلزاد هستم، توسعه‌دهنده فول‌استک وب با بیش از ۵ سال تجربه حرفه‌ای در طراحی و توسعه اپلیکیشن‌ها و وب‌سایت‌های مدرن. تخصص اصلی من در Next.js، React.js و Node.js است و در کنار آن با Python، Flask و Django نیز کار می‌کنم و همیشه در حال یادگیری و توسعه مهارت‌های خود هستم تا با جدیدترین تکنولوژی‌های دنیای وب همگام بمانم.</div>
+          <div className="py-2 md:text-lg text-md">من تجربه ساخت پروژه‌های کامل از صفر تا مرحله استقرار را دارم و روی توسعه رابط‌های کاربری مدرن، بک‌اندهای مقیاس‌پذیر و معماری بهینه تمرکز می‌کنم. همچنین در کار با MongoDB و PostgreSQL تجربه بالایی دارم و توانایی طراحی سیستم‌هایی سریع، پایدار و قابل توسعه را دارم.</div>
+          <div className="py-2 md:text-lg text-md">در طول مسیر حرفه‌ای خود، پروژه‌های مختلفی را به صورت مستقل و تیمی توسعه داده‌ام و به همکاری مؤثر، حل مسئله و ارائه راه‌حل‌های خلاقانه شناخته می‌شوم. علاقه من به تکنولوژی و مهندسی نرم‌افزار باعث شده همیشه به دنبال ساخت محصولات باکیفیت، بهینه و کاربرمحور باشم.</div>
+          <div className="py-2 md:text-lg text-md">اگر به دنبال توسعه‌دهنده‌ای متعهد، خلاق و حرفه‌ای هستید که بتواند ایده‌های شما را به یک محصول واقعی و قدرتمند تبدیل کند، خوشحال می‌شوم با هم همکاری کنیم.</div>
         </div>
         : lng == "ar" ?
         <div className=" pb-4 text-zinc-400 text-justify px-8 max-w-4xl font-['far']">

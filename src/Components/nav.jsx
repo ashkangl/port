@@ -61,7 +61,7 @@ export default function Navigation({lng}) {
 								:""}
 							</Link>			
 							
-							<Link
+							{/* <Link
 								href={`/${lng}/order`}
 								className="duration-200 text-zinc-200 hover:text-zinc-300"
 							>
@@ -74,7 +74,7 @@ export default function Navigation({lng}) {
 								{lng === "fa" || lng === "ar" ? 
 								<h6 className="font-['far']">{t('Order')}</h6>
 								:""}
-							</Link>			
+							</Link>			 */}
 						</div>
 
 						<Link

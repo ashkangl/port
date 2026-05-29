@@ -19,7 +19,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   if(lng === 'fa'){
     meta.title = "اشکان گلزاد - برنامه نویس و طراح وب سایت";
     meta.description = "من برنامه نویس و طراح وبسایت هستم. شما می توانید نمونه کارها و رزومه من را در این سایت مشاهده کنید. برای مشاوره و سفارش سایت برای کسب و کارتان با من در ارتباط باشید.";
-    meta.keywords = "طراح وب,طراح سایت,طراحی سایت,برنامه نویسی وب,برنامه نویسی وب سایت,طراحی وب ایران,برنامه نویسی وب ایران"
+    meta.keywords = "برنامه نویس و طراح سایت , طراح وبسایت , برنامه نویس وبسایت , طراح وب , برنامه نویس , برنامه نویس وب , برنامه نویس سایت , سفارش وب سایت , فریلنسر , برنامه نویس فری لنسر"
   }else if(lng === 'en'){
     meta.title = "Ashkan Golzad - Website Developer & Designer";
     meta.description = "I am a website developer and designer. You can see my sample works and resume in this website. If you need help or want to order website for your business, you can contact me in contact part.";

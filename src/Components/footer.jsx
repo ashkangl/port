@@ -8,7 +8,7 @@ const footer = () => {
         <Flags />
         </div>
         <div className='flex-initial md:w-1/2 w-2/3'>
-        <h6 className="md:w-[50%] md:ml-[25%] text-center font-['spa'] text-slate-50 md:text-lg text-sm ">&copy;ASHKANGOLZAD.IR | 2024-25</h6>
+        <h6 className="md:w-[50%] md:ml-[25%] text-center font-['spa'] text-slate-50 md:text-lg text-sm ">&copy;ASHKANGOLZAD.IR</h6>
         </div>
     </div>
   )
