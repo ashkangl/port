@@ -87,6 +87,7 @@ const English = () => {
             target="_blank"
             className="text-zinc-400 hover:text-zinc-100 duration-300"
           >
+            
             www.haircolorbyhani.ir
           </Link>
           <Image unoptimized src={hbh} width={200} height={120} alt='hair color by hani screenshot' className='mt-2 hover:scale-110 duration-200' />
